@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------
+      header style---------*/
+header{
+    width:100% ;
+    background-color: #2D25A0; 
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px; 
+}
+.heading{
+    width: 485px;
+}   
+.heading-title{
+    color:white;
+    font-size: 64px;
+    font-weight:700 ;
+    margin-bottom: 10px;
+}
+button{
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+
+}
+button a{
+    text-decoration: none;
+    color:white;
+}
+button span{
+    margin-left: 5px;
+    color: white;
+}
+button:hover{
+    background: #f1065c;
+    
+}
+/*--------banner side-------------*/
+
+.banner img{
+    width:556px;
+    height:438px;
+}
+
+/*-----player style----*/
+
+.players-continar{
+    display:flex ;
+    justify-content: center;
+    margin-top: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px ;
+    grid-row-gap:30px;
+    
+}
+.player{
+    width: 330px;
+    padding: 15px;
+    background: #fff;
+    box-shadow:0px 0px 40px rgb(0 0 0 /15%);
+    
+}
+.player img{
+    width: 330px;
+    height: 256px;   
+}
+/*----fav them & player search side-----*/
+
+.fav-club-title{
+    text-align:center;
+}
+.fav-club{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+       
+}
+.logo-club{
+    text-align: center;
+    
+}
+.logo-club img{
+  width: 40px;
+}
+.search{
+    text-align: center;
+}
+.src{
+    padding: 8px;
+    text-align: center;
+    width:50%;
+}
+.src-btn{
+    color: white;
+    background-color:lightcoral;
+}
+
+/*--------footer-------*/
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.logo-area{
+      text-align: center;
+      
+
+}
+.logo-area img {
+    width:100%;
+    width: 483px;
+    height: 110px;
+    
+}
+.fa-instagram.icon,.icon{
+    background: #969bab83;
+    padding:6px;
+    border-radius: 50%;
+    
+}
+/*----responsive area----*/
+
+@media only screen and (max-width:688px){
+}
